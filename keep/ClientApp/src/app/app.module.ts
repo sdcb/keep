@@ -9,6 +9,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 let routes: Routes = [
   { path: "login", loadChildren: "./login/login.module#LoginModule" },
+  { path: "", loadChildren: "./root/root.module#RootModule" }, 
   { path: "**", redirectTo: "login" }
 ];
 

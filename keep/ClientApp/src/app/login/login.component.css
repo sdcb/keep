@@ -1,0 +1,18 @@
+.login-header {
+  background-color: rgb(63,81,181);
+  color: #ffffff;
+}
+
+.login-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.login-content-half {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: hsl(200, 100%, 60%);
+}

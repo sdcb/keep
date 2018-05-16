@@ -1,6 +1,8 @@
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import {
   MatCardModule,
   MatAutocompleteModule,
@@ -76,7 +78,8 @@ let modules = [
   MatToolbarModule,
   MatTooltipModule,
   MatTreeModule,
-  ReactiveFormsModule
+  ReactiveFormsModule,
+  FlexLayoutModule
 ]
 
 @NgModule({
